@@ -19,6 +19,9 @@ To inspect building data of certain building:
 
 We intend to investigate the interactions between chiller plants and AHUs and further discuss the optimal strategy for balancing indoor human comfort and energy conservation of HVAC system.
 
+We have a hotel building and get some observations of its HVAC systems for lobby space. 
+(RTEM only supports some metadata with a few relationships between spaces and devices.)
+
 At first, we can take a look at datasets of HVAC systems.
 
 ### Chiller water system
@@ -41,4 +44,15 @@ At first, we can take a look at datasets of HVAC systems.
 ![AHU_5_T_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_5_TA_Timeseries.PNG)
 ![AHU_7_T_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_7_TA_Timeseries.PNG)
 ![AHU_15_T_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_15_TA_Timeseries.PNG)
+
+### Indoor air temperature and cooling efficiency
+
+According to AHU datasets, there are sometimes divergences between TAS and TAS_SP in all three AHUs.
+
+It means the chillers may not support the corresponding cooling load for AHUs, making the TAS higher or lower than TAS_SP.
+
+
+
+
+
 
