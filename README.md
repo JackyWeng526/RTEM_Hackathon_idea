@@ -51,7 +51,7 @@ According to AHU datasets, there are sometimes divergences between TAS and TAS_S
 
 It means the chillers may not support the corresponding cooling load for AHUs, making the TAS higher or lower than TAS_SP. (especially AHU_5)
 
-Thus, we try to analyze the AHU datasets with chiller datasets to understand the advancing interaction of the HVAC system.
+Thus, we try to analyze the AHU data with chiller datasets to understand the advancing interaction of the HVAC system.
 
 #### Insight of Chiller dataset
 
@@ -60,6 +60,8 @@ The chiller performance could be displayed through supply chilled water temperat
 *Advancing analysis of chiller performance.*
 ![CH_22_3_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/CH_22_3_RT_KWRT_Analysis.PNG)
 ![CH_22_4_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/CH_22_4_RT_KWRT_Analysis.PNG)
+
+#### Insight of AHU dataset
 
 Unlucky, the AHU data is not sufficient to verify all of our hypotheses. However, we still have some findings.
 
@@ -70,6 +72,31 @@ The TAS difference (TASD) of some AHUs seems to show relvance to ![cooling coil 
 
 *Advancing analysis of AHU temperature divergences. (Displayed by TCHD)*
 ![AHU_TCHD_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_TCHD.PNG)
+
+### Human Comfort and HVAC Energy Balance
+
+To talk about Human Comfort and HVAC Energy Balance, we suppose TCHD may be one of the key variables that connect chillers and AHUs operation.
+
+In *Insight of Chiller dataset*, we can find a optimal TCHS range for better chiller performance.
+
+However, the TCHD would influence AHU temperature difference that may impact human thermal comfort.
+
+Therefore, we souhld find a chillers and AHUs operation strategy that satisfies indoor human comfort and energy consrvation.
+
+### Future Work
+
+1. Utilize resources of RTEM datasets to verify hypothese and expand the research scale.
+2. Design a multivariable optimizing model for Human Comfort and HVAC Energy Balance.
+
+### Authors
+- [@Jacky Weng](https://github.com/JackyWeng526)
+- [@Patrick Fu](https://github.com/PatrickFu0302)
+
+### Acknowledgement
+The datasets in this repository is from RTEM Hackathon. 
+The metadata and other information of the sample buildings are released with consent.
+The module here is just the sample, not the real one in the field.
+
 
 
 
