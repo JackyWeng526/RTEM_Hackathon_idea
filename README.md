@@ -8,7 +8,11 @@ During the competition, we can have approximately 200 buildings worth of time-se
 
 The provided building meta data is shown as following: 
 
-![TCH_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Building_Device_Meta.PNG)
+![Building_Device_Meta](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Building_Device_Meta.PNG)
+
+To inspect building data of certain building:
+
+![Building_Device_Meta](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Building_DataFrame.PNG)
 
 
 ![TCH_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Chilled_Water_Temp_Timeseries.PNG)
