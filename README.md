@@ -21,5 +21,5 @@ We intend to investigate the interactions between chiller plants and AHUs and fu
 
 At first, we can take a look at HVAC system data.
 
-Timeseries data of chilled water temperature. (TCHS: Supply chilled water temperature; TCHR: Return chilled water temperature)
+*Timeseries data of chilled water temperature. (TCHS: Supply chilled water temperature; TCHR: Return chilled water temperature)
 ![TCH_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Chilled_Water_Temp_Timeseries.PNG)
