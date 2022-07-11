@@ -57,7 +57,7 @@ Thus, we try to analyze the AHU datasets with chiller datasets to understand the
 
 The chiller performance could be displayed through supply chilled water temperature (TCHS), chilled water temperature difference (TCHD), or chilled water follow rate (QCH).
 
-*Advancing analysis of chiller performance. *
+*Advancing analysis of chiller performance.*
 ![CH_22_3_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/CH_22_3_RT_KWRT_Analysis.PNG)
 ![CH_22_4_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/CH_22_4_RT_KWRT_Analysis.PNG)
 
