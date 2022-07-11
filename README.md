@@ -49,7 +49,7 @@ At first, we can take a look at datasets of HVAC systems.
 
 According to AHU datasets, there are sometimes divergences between TAS and TAS_SP in all three AHUs.
 
-It means the chillers may not support the corresponding cooling load for AHUs, making the TAS higher or lower than TAS_SP.
+It means the chillers may not support the corresponding cooling load for AHUs, making the TAS higher or lower than TAS_SP. (E)
 
 
 
