@@ -19,6 +19,7 @@ To inspect building data of certain building:
 
 We intend to investigate the interactions between chiller plants and AHUs and further discuss the optimal strategy for balancing indoor human comfort and energy conservation of HVAC system.
 
-At first, we 
+At first, we can take a look at HVAC system data.
 
+Timeseries data of chilled water temperature. (TCHS: Supply chilled water temperature; TCHR: Return chilled water temperature)
 ![TCH_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Chilled_Water_Temp_Timeseries.PNG)
