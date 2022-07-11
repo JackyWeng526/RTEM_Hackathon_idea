@@ -19,7 +19,9 @@ To inspect building data of certain building:
 
 We intend to investigate the interactions between chiller plants and AHUs and further discuss the optimal strategy for balancing indoor human comfort and energy conservation of HVAC system.
 
-At first, we can take a look at HVAC system data.
+At first, we can take a look at datasets of HVAC systems.
+
+### Chiller water system
 
 *Timeseries data of chilled water temperature. (TCHS: Supply chilled water temperature; TCHR: Return chilled water temperature)*
 ![TCH_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Chilled_Water_Temp_Timeseries.PNG)
@@ -32,3 +34,11 @@ At first, we can take a look at HVAC system data.
 
 *Timeseries data of chiller performance. (cooling performance, energy consumption per USRT, unit: KW/RT)*
 ![KWRT_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/Chiller_Performance_KWRT_Timeseries.PNG)
+
+### AHU system
+
+*Timeseries data of air temperature. (TAS: Supply air temperature; TAS_SP: Setpoint of supply air temperature, unit: degree C)*
+![AHU_5_T_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_5_TA_Timeseries.PNG)
+![AHU_7_T_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_7_TA_Timeseries.PNG)
+![AHU_15_T_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_15_TA_Timeseries.PNG)
+
