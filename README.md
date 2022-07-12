@@ -65,7 +65,7 @@ The chiller performance could be displayed through supply chilled water temperat
 
 Unlucky, the AHU data is not sufficient to verify all of our hypotheses. However, we still have some findings.
 
-The TAS difference (TASD) of some AHUs seems to show relvance to ![cooling coil valve command (CCVC)] or ![chilled water temperature difference (TCHD)].
+The TAS difference (TASD) of some AHUs seems to show relvance to [cooling coil valve command (CCVC)] or [chilled water temperature difference (TCHD)].
 
 *Advancing analysis of AHU temperature divergences. (Displayed by CCVC)*
 ![AHU_CCVC_Data](https://github.com/JackyWeng526/RTEM_Hackathon_idea/blob/main/docs/AHU_AHU_CCVC.PNG)
